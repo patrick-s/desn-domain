@@ -1,0 +1,92 @@
+/*
+    Name: Patrick Sappington
+    Assignment: 3 Page App
+    Date: 11/14/2016
+*/
+/* Lotta CSS Stuff, nothing special */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+html, body, demarpad{
+    margin:0;
+    padding:0;
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#EEEEEE;
+}
+
+#domain{
+    border-left:10px solid #3498db;
+    text-align:center;
+    color:#3498db;
+    font-size:2.1em;
+    padding: 40px 0;
+    text-transform:uppercase;
+}
+
+#domain.taken{
+    border-left:10px solid #E66A39;
+    color:#E66A39;
+}
+
+#available{
+    border-left:10px solid #2980b9;
+    text-align:center;
+    color:#2980b9;
+    font-size:2.1em;
+    padding: 30px 0;
+}
+
+#available.taken{
+    border-left:10px solid #D04E33;
+    color:#D04E33;
+}
+
+.clear{
+    clear:both;
+}
+
+.text-content{
+    padding:10px;
+    font-size:1.5em;
+}
+
+.refresh{
+    padding: 20px 20px;
+    font-size: 1.5em;
+    text-align:right;
+    border-right:50px solid #292929;
+    color: #292929;
+}
+
+.previous-domains .prev-header{
+    padding: 30px 0;
+    font-size: 1.5em;
+    text-align: center;
+    border-left:10px solid #2980b9;
+    color: #2980b9;
+}
+
+.prev-domain{
+    padding: 20px;
+    font-size: 1.2em;
+    border-left:10px solid #D04E33;
+}
+
+.prev-domain a{
+    text-decoration:none;
+    color:#2980b9;
+}
+
+.header{
+    padding: 10px;
+    font-size: 1.5em;
+    color: #292929;
+    border-left:10px solid #292929;
+    border-right:10px solid #292929;
+}
